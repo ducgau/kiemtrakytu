@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isFirstLetterUpperCase(str){
+        regexp = /^[A-Z]/;
+        if (regexp.test(str)) {
+            alert("ký tự đầu tiên là chữ hoa");
+        } else {
+           alert("ký tự đầu tiên không phải chữ hoa");
+        }
+    }
+
+     isFirstLetterUpperCase('Abcd');
+    isFirstLetterUpperCase('abcd');
+    isFirstLetterUpperCase('Nguyen van Nam');
+    isFirstLetterUpperCase('NGUYEN VAN NAM');
+    isFirstLetterUpperCase('nguyen van nam');
+</script>
+</body>
+</html>
